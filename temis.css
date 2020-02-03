@@ -1,0 +1,65 @@
+body {
+    font-family: 'Inria Serif', serif;
+}
+
+.name-of-site {
+    background-color: #2846fd;
+}
+
+.navigation-of-site {
+    background-color: ghostwhite;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.information-about-company {
+    margin: 5% 0%;
+}
+
+.main-image {
+    border: 10px solid white;
+    border-radius: 20px;
+}
+
+.about-company {
+    margin: 5%;
+}
+
+.main-information {
+    border: 5px solid lightblue;
+    border-radius: 20px;
+    margin: 1%;
+    padding: 2%;
+}
+
+.navigation-of-site {
+    padding: 0.5%;
+}
+
+.img-for-service {
+    margin: 5% 0%;
+    border-radius: 10px;
+}
+
+.name-of-site {
+    color: #dbc200;
+    font-weight: 900;
+    text-shadow: -1px 0 black,
+        0 1px black,
+        1px 0 black,
+        0 -1px black;
+}
+
+.footer-inf {
+    padding-left: 1.5%;
+}
+
+.contacts {
+    margin: 3%;
+}
+
+.more-information {
+    font-weight: 900;
+}
