@@ -1,5 +1,5 @@
-body {
-    font-family: 'Inria Serif', serif;
+body{
+    font-family: 'Teko', sans-serif;
 }
 
 .name-of-site {
@@ -15,23 +15,22 @@ h1 {
 }
 
 .information-about-company {
-    margin: 5% 0%;
+    text-align: justify;
 }
-
 .main-image {
     border: 10px solid white;
     border-radius: 20px;
 }
 
 .about-company {
-    margin: 5%;
+    text-align: justify;
 }
 
 .main-information {
     border: 5px solid lightblue;
     border-radius: 20px;
     margin: 1%;
-    padding: 2%;
+    padding: 5%;
 }
 
 .navigation-of-site {
@@ -45,7 +44,7 @@ h1 {
 
 .name-of-site {
     color: #dbc200;
-    font-weight: 900;
+    font-weight: 600;
     text-shadow: -1px 0 black,
         0 1px black,
         1px 0 black,
@@ -59,10 +58,22 @@ h1 {
 .contacts {
     margin: 3%;
 }
-
-.more-information {
-    font-weight: 900;
-}
 .google-maps{
     width: 100%;
+}
+.list-of-advantage{
+    padding-inline-start:0px;
+}
+.text{
+    margin-bottom: 12%;
+}
+@media(max-width:1199px){
+   .text {
+       margin-bottom: 24%;
+   }
+}
+@media(max-width:991px) {
+    .text {
+        margin-bottom: 0%;
+    }
 }
